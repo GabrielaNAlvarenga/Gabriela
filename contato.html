@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contato com a juh e gabi</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="corpo">
+
+<form id="form-contato">
+	<label for="nome" class="label">Nome</label><br/>
+	<input type="text" id="nome" placeholder="nome" maxlength="30" /><br/>
+
+	<label for="email" class="label">Email</label><br/>
+	<input type="text" id="email" placeholder="exemplo@gmail.com" maxlength="50" /><br/>
+
+	<label for="mensagem" class="label">Mensagem</label><br/>
+	<textarea id="mensagem" cols="30" rows="5" placeholder="insira sua mensagem aqui!!"></textarea><br/>
+
+	<input type="submit" value= "Enviar" class="but" onclick="alerta()" />
+
+</form>
+</div>
+<script type="text/javascript">
+function alerta()
+{
+	alert("teste");
+}
+</script>
+</body>
+</html>
